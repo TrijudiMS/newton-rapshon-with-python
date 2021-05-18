@@ -43,7 +43,6 @@ def newton_raphson(x):
     f_x_awal = pow(x, 3) + 4*pow(x, 2) - 10
     ## f'(x) = 3x^2 + 8x
     f_x_awal_aksen = 3 * pow(x, 2) + (8 * x)
-    print('====================== ', f_x_awal_aksen)
     ## Menampilkan f(x) dan f'(x)
     print("f({:.4f}) = {:.4f}^3 + 4({:.4f})^2 - 10 = {:.4f}".format(x, x, x, f_x_awal))
     print("f'({:.4f}) = 3({:.4f})^2 + 8({:.4f})= {:.4f}".format(x, x, x, f_x_awal_aksen))
